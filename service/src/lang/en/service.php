@@ -2,6 +2,89 @@
 
 return [
 
+     /***************************************************************************
+     * PAGE TITLE
+     */
+    'page_list_testimonial' => 'Trang quản trị testimonial',
+    'page_',
+    'page_',
+    'page_',
+    'page_',
+    'page_',
+    'page_',
+    'page_',
+    'page_',
+    'page_',
+    'page_',
+    'page_',
+    /**************************************************************************/
+
+    /***************************************************************************
+     * SIDEBAR
+     */
+    'sidebar_',
+    'sidebar_',
+    'sidebar_',
+    'sidebar_',
+    'sidebar_',
+    'sidebar_',
+    'sidebar_',
+    'sidebar_',
+    'sidebar_',
+    'sidebar_',
+    /**************************************************************************/
+
+    /***************************************************************************
+     * SEARCH
+     */
+    'search_',
+    'search_',
+    'search_',
+    'search_',
+    'search_',
+    'search_',
+    'search_',
+    'search_',
+    'search_',
+    'search_',
+    'search_',
+    /**************************************************************************/
+
+
+
+    /***************************************************************************
+     * MESSAGE
+     */
+    'message_',
+    'message_',
+    'message_',
+    'message_',
+    'message_',
+    'message_',
+    'message_',
+    'message_',
+    'message_',
+    'message_',
+    'message_',
+    /**************************************************************************/
+
+
+    /***************************************************************************
+     * FIELDS
+     */
+    'field_',
+    'field_',
+    'field_',
+    'field_',
+    'field_',
+    'field_',
+    'field_',
+    'field_',
+    'field_',
+    'field_',
+    /**************************************************************************/
+
+
     "package_name" => 'Service',
     "package_description" => 'Service package is for initial',
     "order" => '#',
@@ -61,5 +144,5 @@ return [
     'page_category_list' => 'Categories',
     'service_category_add_button' => 'Add new service category',
     'service_categoty_id' => 'Category ID',
-    'service_categoty_name' => 'Category name',    
+    'service_categoty_name' => 'Category name',
 ];

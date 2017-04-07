@@ -3,7 +3,7 @@
 <table class="table table-hover">
     <thead>
         <tr>
-            <td style='width:5%'>{{ trans('service::service_admin.order') }}</td>
+            <th style='width:5%'>{{ trans('service::service_admin.order') }}</th>
             <th style='width:10%'>Service ID</th>
             <th style='width:50%'>Service title</th>
             <th style='width:50%'>Service Des</th>
