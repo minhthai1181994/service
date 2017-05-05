@@ -95,7 +95,7 @@ class ServiceAdminController extends Controller {
                     $service = $this->obj_service->update_service($input);
 
                     //Message
-                    \Session::flash('message', trans('service::service_admin.message_update_successfully'));
+                    \Session::flash('message', trans('service::service.message_update_successfully'));
                     return Redirect::route("admin_service.edit", ["id" => $service->service_id]);
                 } else {
 
@@ -109,12 +109,12 @@ class ServiceAdminController extends Controller {
                 if (!empty($service)) {
 
                     //Message
-                    \Session::flash('message', trans('service::service_admin.message_add_successfully'));
+                    \Session::flash('message', trans('service::service.message_add_successfully'));
                     return Redirect::route("admin_service.edit", ["id" => $service->service_id]);
                 } else {
 
                     //Message
-                    \Session::flash('message', trans('service::service_admin.message_add_unsuccessfully'));
+                    \Session::flash('message', trans('service::service.message_add_unsuccessfully'));
                 }
             }
         }
@@ -141,7 +141,7 @@ class ServiceAdminController extends Controller {
 
             if (!empty($service)) {
                 //Message
-                \Session::flash('message', trans('service::service_admin.message_delete_successfully'));
+                \Session::flash('message', trans('service::service.message_delete_successfully'));
 
                 $service->delete();
             }

@@ -37,7 +37,7 @@ return [
     /***************************************************************************
      * SEARCH
      */
-    'search_',
+    'service_name' =>'Tìm kiếm',
     'search_',
     'search_',
     'search_',
@@ -85,64 +85,64 @@ return [
     /**************************************************************************/
 
 
-    "package_name" => 'Service',
-    "package_description" => 'Service package is for initial',
-    "order" => '#',
-    "operations" => 'Operations',
-    'service_category_name_label' => 'Service category name:',
+    "package_name" => 'Tên',
+    "package_description" => 'Thông tin',
+    "order" => 'STT',
+    "operations" => 'Chứcnăng',
+    'service_category_name_label' => 'Tìm mục lục:',
     /**
      * Page
      */
 
-    'page_list' => 'List of services',
-    'page_add' => 'Add new item',
-    'page_edit' => 'Update service item',
-    'page_search' => 'Service page search',
-    'page_category'=> 'List categories of service',
+    'page_list' => 'Danh sách',
+    'page_add' => 'Thêm danh sách',
+    'page_edit' => 'Sửa danh sách',
+    'page_search' => 'Tìm kiếm',
+    'page_category'=> 'Mục lục',
 
     /**
      * Form
      */
-    'form_heading' => 'General data',
-    'form_add' => 'Add new service item',
-    'form_edit' => 'Update service item',
-    'name' => 'Name',
-    'title' => 'Title',
-    'description' => 'Description',
-    'img' => 'Img',
-    'service_required_name' => 'Required name',
-    'required' => 'is required',
-    'search' => 'Search',
-    'service_title_label' => 'Service name:',
-    'service_title_placeholder' => 'service name',
-    'service_category_name'=> 'Service category name',
+    'form_heading' => 'Thông tin',
+    'form_add' => 'Thêm danh sách',
+    'form_edit' => 'Sửa danh sách',
+    'name' => 'Mục lục',
+    'title' => 'Tiêu đề',
+    'description' => 'Nội dung',
+    'img' => 'Hình ảnh',
+    'service_required_name' => 'Tên cần thiết',
+    'required' => 'Cần thiết',
+    'search' => 'Tìm kiếm',
+    'service_title_label' => 'Tìm tiêu đề:',
+    'service_title_placeholder' => 'Nhập hiển thị',
+    'service_category_name'=> 'Mục lục hiển thị',
 
     /**
      * Message
      */
-    'message_update_successfully' => 'Update service item successfully',
-    'message_add_successfully' => 'Add new service item successfully',
-    'message_delete_successfully' => 'Delete service item successfully',
-    'message_find_failed' => 'No results found.',
+    'message_update_successfully' => 'Sửa thành công',
+    'message_add_successfully' => 'Thêm thành công',
+    'message_delete_successfully' => 'Xóa thành công',
+    'message_find_failed' => 'Không có kết quả.',
 
     /**
      * Validator message
      */
     'title_unvalid_length' => 'Unvalid lenght title. Allow from: <b>:TITLE_MIN_LENGTH</b> to <b>:TITLE_MAX_LENGTH</b>.',
 
-    'service_title' => 'Service name',
+    'service_title' => 'Tiêu đề',
 
     /**
      * Validator message
      */
-    'delete_confirm' => 'Are you sure to delete this item?',
+    'delete_confirm' => 'Bạn có chắc chắn muốn xóa không',
 
 
     ////////////////////////////////////////////////////////////////////////////
     ///////////////////////////CATEGORIES///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////
-    'page_category_list' => 'Categories',
-    'service_category_add_button' => 'Add new service category',
-    'service_categoty_id' => 'Category ID',
-    'service_categoty_name' => 'Category name',
+    'page_category_list' => 'Mục lục',
+    'service_category_add_button' => 'Thêm mục lục',
+    'service_categoty_id' => 'Mục lục',
+    'service_categoty_name' => 'Tên mục lục',
 ];

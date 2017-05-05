@@ -3,13 +3,13 @@
 <table class="table table-hover">
     <thead>
         <tr>
-            <th style='width:5%'>{{ trans('service::service_admin.order') }}</th>
-            <th style='width:10%'>Service ID</th>
-            <th style='width:50%'>Service title</th>
-            <th style='width:50%'>Service Des</th>
-             <th style='width:50%'>Service Img</th>
+            <th style='width:5%'>{{ trans('service::service.order') }}</th>
+            <th style='width:50%'>Mã Số</th>
+            <th style='width:50%'>Tiêu đề</th>
+            <th style='width:50%'>Nội dung</th>
+             <th style='width:50%'>Hình ảnh</th>
 
-            <th style='width:20%'>{{ trans('service::service_admin.operations') }}</th>
+            <th style='width:20%'>{{ trans('service::service.operations') }}</th>
         </tr>
     </thead>
     <tbody>
@@ -39,7 +39,7 @@
 @else
 <span class="text-warning">
     <h5>
-        {{ trans('service::service_admin.message_find_failed') }}
+        {{ trans('service::service.message_find_failed') }}
     </h5>
 </span>
 @endif

@@ -1,7 +1,7 @@
 @extends('laravel-authentication-acl::admin.layouts.base-2cols')
 
 @section('title')
-Admin area: {{ trans('service::service_admin.page_category') }}
+Admin area: {{ trans('service::service.page_category') }}
 @stop
 
 @section('content')
@@ -16,7 +16,7 @@ Admin area: {{ trans('service::service_admin.page_category') }}
                     <h3 class="panel-title bariol-thin">
                         <i class="fa fa-group"></i> 
                         {!! $request->all() ? 
-                            trans('service::service_admin.page_search') : trans('service::service_admin.page_category') 
+                            trans('service::service.page_search') : trans('service::service.page_category') 
                         !!}
                     </h3>
                 </div>
@@ -50,7 +50,7 @@ Admin area: {{ trans('service::service_admin.page_category') }}
 <!-- DELETE CONFIRM -->
 <script>
     $(".delete").click(function () {
-        return confirm({{ trans('service:service_admin.delete_confirm') }});
+        return confirm({{ trans('service:service.delete_confirm') }});
     });
 </script>
 <!-- /END DELETE CONFIRM -->

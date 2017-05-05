@@ -86,12 +86,12 @@ class ServiceServiceProvider extends ServiceProvider {
                  * Services
                  */
                 //list
-                trans('service::service_admin.page_list') => [
+                trans('service::service.page_list') => [
                     'url' => URL::route('admin_service'),
                     "icon" => '<i class="fa fa-users"></i>'
                 ],
                 //add
-                trans('service::service_admin.'.$is_action) => [
+                trans('service::service.'.$is_action) => [
                     'url' => URL::route('admin_service.edit'),
                     "icon" => '<i class="fa fa-users"></i>'
                 ],
@@ -100,7 +100,7 @@ class ServiceServiceProvider extends ServiceProvider {
 //                 * Categories
 //                 */
 //                //list
-                trans('service::service_admin.page_category_list') => [
+                trans('service::service.page_category_list') => [
                  'url' => URL::route('admin_service_category'),
                   "icon" => '<i class="fa fa-users"></i>'
                 ],

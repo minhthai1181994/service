@@ -1,7 +1,7 @@
 @extends('laravel-authentication-acl::admin.layouts.base-2cols')
 
 @section('title')
-Admin area: {{ trans('service::service_admin.page_edit') }}
+Admin area: {{ trans('service::service.page_edit') }}
 @stop
 @section('content')
 <div class="row">
@@ -11,7 +11,7 @@ Admin area: {{ trans('service::service_admin.page_edit') }}
             <div class="panel panel-info">
                 <div class="panel-heading">
                     <h3 class="panel-title bariol-thin">
-                        {!! !empty($service->service_id) ? '<i class="fa fa-pencil"></i>'.trans('service::service_admin.form_edit') : '<i class="fa fa-users"></i>'.trans('service::service_admin.form_add') !!}
+                        {!! !empty($service->service_id) ? '<i class="fa fa-pencil"></i>'.trans('service::service.form_edit') : '<i class="fa fa-users"></i>'.trans('service::service.form_add') !!}
                     </h3>
                 </div>
 
@@ -41,7 +41,7 @@ Admin area: {{ trans('service::service_admin.page_edit') }}
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-md-12 col-xs-12">
-                            <h4>{!! trans('service::service_admin.form_heading') !!}</h4>
+                            <h4>{!! trans('service::service.form_heading') !!}</h4>
                             {!! Form::open(['route'=>['admin_service.post', 'id' => @$service->service_id],  'files'=>true, 'method' => 'post'])  !!}
 
 
